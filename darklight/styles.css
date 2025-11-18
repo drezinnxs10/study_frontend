@@ -1,0 +1,22 @@
+/*Tema automático Light ou Dark*/
+
+:root {
+    color-scheme: light dark;
+
+}
+
+/*Tema Claro*/
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/*Tema claro ativado pelo sistema*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
